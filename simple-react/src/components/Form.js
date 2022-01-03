@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import GoogleMapReact from "google-maps-react";
-
 import { Form, FloatingLabel } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import categorias from "../categorias";
