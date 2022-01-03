@@ -7,6 +7,7 @@ import "./Form.css";
 import { useState } from "react";
 import MapaForm from "./MapaForm";
 import axios from "axios";
+import URLrequests from '../contantesURL'
 
 const Forms = () => {
     
@@ -72,7 +73,7 @@ const Forms = () => {
 
     async function handleSubmit(i){
         i.preventDefault();
-        let res=await axios.post("http://localhost:5000/customers",post)
+        let res=await axios.post(`${URLrequests}customers`,post)
         alert("Se ha creado correctamente!")
         console.log(res.data)
     }
