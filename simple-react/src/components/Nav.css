@@ -32,3 +32,37 @@
 .navbar{
     background-color:#404F68;
 }
+
+@media screen and (max-width:500px) {
+    .navbar{
+        background-color:#404F68;
+        height: 200px;
+    }
+    .logo{
+        position: relative;
+        top:-45px;
+        left:60px;
+        color: #d1d9de;
+        font-size: 35px;
+        
+    }
+    .formu{
+        position: relative;
+        
+        left: -180px;
+        top: 25px;
+        color: #d1d9de;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    .joda{
+        position: relative;
+        left: -150px;
+        top: 25px;
+        color: #d1d9de;
+        font-size: 24px;
+        font-family: sans-serif;
+    }
+
+}
