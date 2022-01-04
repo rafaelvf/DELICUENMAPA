@@ -81,7 +81,7 @@ const Forms = () => {
     // console.log(position,"ji")
     return (
         <div className="formulario" onSubmit={handleSubmit}>
-        <h1>Formulario del crimen </h1>
+        <p className="tituloform">Selecciona en el mapa el lugar donde te robaron </p>
         {/* <p>lat:{position.lat}</p>
         <p>lng:{position.lng}</p> */}
         <Form>
@@ -93,7 +93,7 @@ const Forms = () => {
         <br />
         <input type="datetime-local" value={fecha} onChange={(e)=>setFecha(e.target.value)}/>
         <br />
-        <Form.Label>Selecciona que te robaron:</Form.Label>
+        <Form.Label>Selecciona que te robaron</Form.Label>
         <br />
         {categorias.map((i) => (
             <Form.Check
@@ -110,7 +110,7 @@ const Forms = () => {
         <Form.Label>Valor aproximado de tu perdida</Form.Label>
         <br />
         <input type="number" min={0} value={valor} onChange={(e)=>setValor(parseInt(e.target.value))} />$<br />
-        <Form.Label>Selecciona como te robaron:</Form.Label>
+        <Form.Label>Selecciona como te robaron</Form.Label>
         <br />
         {metodo.map((i) => (
             <Form.Check
@@ -124,7 +124,7 @@ const Forms = () => {
             />
         ))}
         <br />
-        <Form.Label>Detalles extra:</Form.Label>
+        <Form.Label>Detalles extra</Form.Label>
         <br />
         <FloatingLabel
             controlId="floatingTextarea"
@@ -136,7 +136,7 @@ const Forms = () => {
         </FloatingLabel>
         <br />
         <div className="form-group col-md-11">
-        <button className="activityButton" type="submit">Crear</button>
+        <button className="boton" type="submit">Crear</button>
                                 
                             </div>
         </Form>
