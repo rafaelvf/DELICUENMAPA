@@ -26,8 +26,43 @@ background-color: #404F68;
   font-size: 20px;
   position: absolute;
   left: 47%;
-  bottom: -5px;
+  bottom: -5%;
 }
 .boton:hover{
     color:#D1D9DE;
 }
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .boton{
+        background-color: #404F68; 
+          border: #404F68,solid;
+          border-radius: 8px;
+          color: #3aab87;
+          padding: 5px 22px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 20px;
+          position: absolute;
+          left: 47%;
+          bottom: -35%;
+    }
+        }
+
+
+@media screen and (min-width:300px) and (max-width:768px) {
+            .boton{
+                background-color: #404F68; 
+                  border: #404F68,solid;
+                  border-radius: 8px;
+                  color: #3aab87;
+                  padding: 5px 22px;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                  font-size: 20px;
+                  position: absolute;
+                  left: 40%;
+                  bottom: -80%;
+            }
+                }

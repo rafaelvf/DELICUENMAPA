@@ -135,10 +135,10 @@ const Forms = () => {
                                     onChange={(e) => setDescripcion(e.target.value)} />
         </FloatingLabel>
         <br />
-        <div className="form-group col-md-11">
+        
         <button className="boton" type="submit">Crear</button>
                                 
-                            </div>
+                            
         </Form>
     </div>
     );
