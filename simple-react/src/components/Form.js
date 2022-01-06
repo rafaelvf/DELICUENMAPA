@@ -89,6 +89,7 @@ const Forms = () => {
            <div className="mapa"> 
             <MapaForm func={pull_data}/>  
         </div>
+        <div className="for">
         <Form.Label>Fecha y hora</Form.Label>
         <br />
         <input type="datetime-local" value={fecha} onChange={(e)=>setFecha(e.target.value)}/>
@@ -138,7 +139,7 @@ const Forms = () => {
         
         <button className="boton" type="submit">Crear</button>
                                 
-                            
+           </div>                 
         </Form>
     </div>
     );
