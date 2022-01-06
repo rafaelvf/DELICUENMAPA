@@ -73,9 +73,13 @@ const Forms = () => {
 
     async function handleSubmit(i){
         i.preventDefault();
+        if( !fecha || !articulo.length || !tipo.length ){
+            alert("Por favor llenar todos los campos")
+        }else{
         let res=await axios.post(`${URLrequests}customers`,post)
         alert("Se ha creado correctamente!")
         console.log(res.data)
+        }
     }
 
     // console.log(position,"ji")
