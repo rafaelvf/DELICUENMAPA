@@ -1,4 +1,4 @@
-import React, { useState, useMemo, useRef, useCallback } from "react";
+import React, { useState, useMemo, useRef, useCallback, useEffect } from "react";
 import { MapContainer, TileLayer, Marker, Popup, useMapEvents } from "react-leaflet";
 import "./MapaForm.css"
 // import 'leaflet/dist/leaflet.css'
@@ -9,11 +9,7 @@ import Markers from "./Markers";
 import {places} from "../data.json";
 
 const MapaForm = (props) => {
-    // console.log(props,"props")
-    // const {num}=props;
-    // const {position}=props;
-    // console.log(position,"posi")
-    // console.log(num,"j")
+
 
     
     const [state,setState]= useState({
@@ -23,6 +19,26 @@ const MapaForm = (props) => {
     const [coordenadas, setCoordenadas] = useState({lat:1, lng: 1});
     
     props.func(coordenadas)
+
+    const onSuccess = (coordenadas) =>{
+        setCoordenadas({
+            lat:coordenadas.coords.latitude,
+            lng:coordenadas.coords.longitude,
+        })
+        
+
+
+    }
+
+    const onError = error =>{
+        setCoordenadas({
+            error,
+        })
+    }
+
+    useEffect(()=>{
+        navigator.geolocation.getCurrentPosition(onSuccess, onError)
+    },[])
 
     // function LocationMarker() {
     //     const [position, setPosition] = useState(null)
