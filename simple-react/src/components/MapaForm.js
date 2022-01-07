@@ -13,7 +13,7 @@ const MapaForm = (props) => {
 
     
     const [state,setState]= useState({
-        currentLocation:{lat:"-2.170998",lng:"-79.922356"}
+        currentLocation:{lat:-2.170998,lng:-79.922356}
     }) 
     
     const [coordenadas, setCoordenadas] = useState({lat:1, lng: 1});
@@ -25,9 +25,6 @@ const MapaForm = (props) => {
             lat:coordenadas.coords.latitude,
             lng:coordenadas.coords.longitude,
         })
-        
-
-
     }
 
     const onError = error =>{
@@ -38,6 +35,24 @@ const MapaForm = (props) => {
 
     useEffect(()=>{
         navigator.geolocation.getCurrentPosition(onSuccess, onError)
+    },[])
+
+
+
+    const success = (state) =>{
+        setState({
+            currentLocation:{
+                lat:state.coords.latitude,
+                lng:state.coords.longitude, 
+            }
+        })
+
+
+    }
+
+
+    useEffect(()=>{
+        navigator.geolocation.getCurrentPosition(success)
     },[])
 
     // function LocationMarker() {
