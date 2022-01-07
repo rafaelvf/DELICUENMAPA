@@ -10,7 +10,7 @@ const Navi = ()=>{
     const {robos}=useSelector((state)=>state.allRobos)
 
     return (
-        
+        <div>
         <Navbar className="navbar" >
         <Nav className="me-auto">
         <a href="/" className="link">
@@ -21,7 +21,7 @@ const Navi = ()=>{
         <h6 className="joda"> Robos registrados: {robos.length}</h6>
         </Nav>
 |       </Navbar>
-        
+        </div>
 )
 
 }
