@@ -19,7 +19,7 @@ const MapView = () => {
         currentLocation:{lat:"-2.170998",lng:"-79.922356"}
     })
     console.log(state.currentLocation,"aldkj")
-    return <MapContainer center={state.currentLocation} zoom={10} scrollWheelZoom={true} style={{ height: '93vh', width: '100wh' }}>
+    return <MapContainer center={state.currentLocation} zoom={10} scrollWheelZoom={true} style={{ height: '85vh', width: '100wh' }}>
     <TileLayer
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
       url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
