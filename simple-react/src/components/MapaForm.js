@@ -29,7 +29,7 @@ const MapaForm = (props) => {
 
     const onError = error =>{
         setCoordenadas({
-            error,
+            lat:1, lng: 1
         })
     }
 
