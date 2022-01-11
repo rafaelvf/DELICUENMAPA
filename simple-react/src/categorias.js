@@ -1,12 +1,10 @@
 const categorias = [
+    "Billetera",
+    "Carro",
+    "Casa",
+    "Dispositivos electrónicos"  ,
     "Joyas" ,
-"Celular",
-"Computadores/Electronicos"  ,
-"Billetera",
-"Ropa"  ,
-"Carro",
-"Casa",
-"Otros"
+    "Otros"
 ]
 
 export default categorias;

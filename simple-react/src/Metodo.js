@@ -1,11 +1,10 @@
 const metodo = [
-    "Con pistola/cuchillo" ,
-"En el carro",
-"Mientras caminaba"  ,
-"Sin darme cuenta",
-"Se bajaron de una moto"  ,
-"Entraron a mi casa",
-"En el taxi",
+    
+"Caminando por la calle",
+"En mi auto",
+"En transporte público",
+"En un lugar público",
+"Entraron a mi hogar",
 "Otros"
 ]
 

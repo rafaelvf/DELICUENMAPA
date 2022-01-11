@@ -85,7 +85,7 @@ const Forms = () => {
     // console.log(position,"ji")
     return (
         <div className="formulario" onSubmit={handleSubmit}>
-        <p className="tituloform">Selecciona en el mapa el lugar donde te robaron </p>
+        <p className="tituloform">Haz click en el mapa en el lugar dónde te robaron </p>
         {/* <p>lat:{position.lat}</p>
         <p>lng:{position.lng}</p> */}
         <Form>
@@ -94,11 +94,13 @@ const Forms = () => {
             <MapaForm func={pull_data}/>  
         </div>
         <div className="for">
-        <Form.Label>Fecha y hora</Form.Label>
+        <br />
+        <Form.Label><b>Fecha y hora</b></Form.Label>
         <br />
         <input type="datetime-local" value={fecha} onChange={(e)=>setFecha(e.target.value)}/>
         <br />
-        <Form.Label>Selecciona que te robaron</Form.Label>
+        <br />
+        <Form.Label><b>Selecciona qué te robaron</b></Form.Label>
         <br />
         {categorias.map((i) => (
             <Form.Check
@@ -112,11 +114,14 @@ const Forms = () => {
             />
         ))}
         <br />
-        <Form.Label>Valor aproximado de tu perdida</Form.Label>
+        <br />
+        <Form.Label><b>Valor aproximado de tu perdida</b></Form.Label>
         <br />
         <input type="number" min={0} value={valor} onChange={(e)=>setValor(parseInt(e.target.value))} />$<br />
-        <Form.Label>Selecciona como te robaron</Form.Label>
         <br />
+        
+        <Form.Label><b>Selecciona cómo te robaron</b></Form.Label>
+        <br/>
         {metodo.map((i) => (
             <Form.Check
             inline
@@ -129,11 +134,12 @@ const Forms = () => {
             />
         ))}
         <br />
-        <Form.Label>Detalles extra</Form.Label>
+        <br/>
+        <Form.Label><b>Detalles extra</b></Form.Label>
         <br />
         <FloatingLabel
             controlId="floatingTextarea"
-            label="Aqui puedes contarnos mas informacion de lo sucedido, es opcional"
+            label="Aquí puedes escribir mas información de lo sucedido"
             className="mb-3"
         >
             <Form.Control as="textarea" placeholder="Comments" value={descripcion}

@@ -3,13 +3,13 @@
     background-color: #D1D9DE;
     color:#404F68;
     font-size: 18px;
-    height: 100vh;
+    
 
 }
 
 .for{
-    position: absolute;
-    left:5%;
+    position: relative;
+    
     
 }
 .tituloform{
@@ -17,7 +17,7 @@
 }
 
 .boton{
-background-color: #404F68; 
+  background-color: #404F68; 
   border: #404F68,solid;
   border-radius: 8px;
   color: #3aab87;
@@ -26,9 +26,9 @@ background-color: #404F68;
   text-decoration: none;
   display: inline-block;
   font-size: 20px;
-  position: absolute;
-  left: 47%;
-  bottom: -5%;
+  position: relative;
+  bottom: 4px;
+ 
 }
 .boton:hover{
     color:#D1D9DE;
@@ -45,9 +45,8 @@ background-color: #404F68;
           text-decoration: none;
           display: inline-block;
           font-size: 20px;
-          position: absolute;
-          left: 47%;
-          bottom: -15%;
+          position: relative;
+          
     }
         }
 
@@ -63,9 +62,8 @@ background-color: #404F68;
                   text-decoration: none;
                   display: inline-block;
                   font-size: 20px;
-                  position: absolute;
-                  left: 40%;
-                  bottom: -10%;
+                  position: relative;
+                  
             }
                 }
 
@@ -81,8 +79,7 @@ background-color: #404F68;
                   text-decoration: none;
                   display: inline-block;
                   font-size: 20px;
-                  position: absolute;
-                  left: 40%;
-                  bottom: -10%;
+                  position: relative;
+                  
             }
                 }
