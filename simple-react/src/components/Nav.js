@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 import "./Nav.css"
 import {useSelector} from "react-redux";
+import logod from "../img/logod.png";
 
 const Navi = ()=>{
 
@@ -14,13 +15,14 @@ const Navi = ()=>{
         <Navbar className="navbar" >
         <Nav className="me-auto">
         <a href="/" className="link">
-        <h4 className="logo">DelincuenMapa</h4>
+        {/*<h4 className="logo">DelincuenMapa</h4>*/}
+        <img src={logod} alt="DelincuenMapa" className="foto"  />
         </a>
         <a href="/form" className="formu">Formulario</a>
         {/*<Nav.Link href="/estadisticas">Interesantes estadisticas</Nav.Link>*/}
         <h6 className="joda"> Robos registrados: {robos.length}</h6>
         </Nav>
-|       </Navbar>
+        </Navbar>
         </div>
 )
 

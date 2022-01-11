@@ -13,7 +13,7 @@
 .formu{
     position: absolute;
     left: 45%;
-    top:22px;
+    top:18px;
     color: #d1d9de;
     text-decoration: none;
     font-size: 25px;
@@ -24,8 +24,8 @@
 }
 .joda{
     position: absolute;
-    left: 70%;
-    top: 26px;
+    right: 10%;
+    top:25px;
     color: #d1d9de;
     font-size: 24px;
     font-family: sans-serif;
@@ -33,6 +33,13 @@
 .navbar{
     background-color:#404F68;
     height: 70px;
+}
+.foto{
+    position: absolute;
+    height: 45px;
+    width: 18%;
+    left: 2%;
+    top:18%;
 }
 
 @media screen and (min-width:300px) and (max-width:480px) {
@@ -50,28 +57,35 @@
         
     }
     .formu{
-        position: relative;
-        left: 37%;
-        bottom: 0%;
+        position: absolute;
+        left: 67%;
+        top: 54%;
         color: #d1d9de;
         text-decoration: none;
         font-size: 11px;
         font-family: sans-serif;
     }
     .joda{
-        position: relative;
-        left: 6%;
-        top: -40%;
+        position: absolute;
+        left: 54%;
+        top: 32%;
         color: #d1d9de;
         font-size: 11px;
         font-family: sans-serif;
+    }
+    .foto{
+        position: absolute;
+        height: 45px;
+        width: 40%;
+        left: 2%;
+        top:20%;
     }
 
 }
 @media screen and (min-width:481px) and (max-width:768px) {
     .navbar{
         background-color:#404F68;
-        height: 170px;
+        height: 85px;
     }
     .logo{
         position: absolute;
@@ -84,27 +98,34 @@
     .formu{
         position: absolute;
         
-        left: 10%;
-        top: 50%;
+        left: 68%;
+        top: 54%;
         color: #d1d9de;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 15px;
         font-family: sans-serif;
     }
     .joda{
         position: absolute;
-        left: 60%;
-        top: 52%;
+        left: 58%;
+        top: 32%;
         color: #d1d9de;
-        font-size: 24px;
+        font-size: 15px;
         font-family: sans-serif;
+    }
+    .foto{
+        position: absolute;
+        height: 45px;
+        width: 37%;
+        left: 2%;
+        top:22%;
     }
 
 }
 @media screen and (min-width:769px) and (max-width:1024px) {
     .navbar{
         background-color:#404F68;
-        height: 100px;
+        height: 80px;
     }
     .logo{
         position: absolute;
@@ -117,8 +138,8 @@
     .formu{
         position: absolute;
         
-        left: 45%;
-        top: 25px;
+        left: 42%;
+        top: 23px;
         color: #d1d9de;
         text-decoration: none;
         font-size: 25px;
@@ -127,10 +148,17 @@
     .joda{
         position: absolute;
         left: 70%;
-        top: 28px;
+        top: 32px;
         color: #d1d9de;
-        font-size: 24px;
+        font-size: 15px;
         font-family: sans-serif;
+    }
+    .foto{
+        position: absolute;
+        height: 45px;
+        width: 22%;
+        left: 2%;
+        top:20%;
     }
 
 }

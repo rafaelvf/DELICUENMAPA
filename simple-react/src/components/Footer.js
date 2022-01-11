@@ -8,10 +8,7 @@ const Foot = ()=>{
     return (
         <div className="footer">
         
-        
-        
-        
-|       
+    |   
         </div>
 )
 
