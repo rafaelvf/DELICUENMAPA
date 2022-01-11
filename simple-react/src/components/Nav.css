@@ -13,7 +13,7 @@
 .formu{
     position: absolute;
     left: 45%;
-    top:25px;
+    top:22px;
     color: #d1d9de;
     text-decoration: none;
     font-size: 25px;
@@ -25,7 +25,7 @@
 .joda{
     position: absolute;
     left: 70%;
-    top: 29px;
+    top: 26px;
     color: #d1d9de;
     font-size: 24px;
     font-family: sans-serif;
@@ -38,33 +38,32 @@
 @media screen and (min-width:300px) and (max-width:480px) {
     .navbar{
         background-color:#404F68;
-        height: 200px;
+        height: 80px;
         
     }
     .logo{
         position: relative;
-        top:-45px;
-        left:60px;
+        top:10%;
+        left:10%;
         color: #d1d9de;
-        font-size: 35px;
+        font-size: 25px;
         
     }
     .formu{
         position: relative;
-        
-        left: -180px;
-        top: 25px;
+        left: 37%;
+        bottom: 0%;
         color: #d1d9de;
         text-decoration: none;
-        font-size: 25px;
+        font-size: 11px;
         font-family: sans-serif;
     }
     .joda{
         position: relative;
-        left: -150px;
-        top: 25px;
+        left: 6%;
+        top: -40%;
         color: #d1d9de;
-        font-size: 24px;
+        font-size: 11px;
         font-family: sans-serif;
     }
 
