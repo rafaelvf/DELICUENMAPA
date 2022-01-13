@@ -18,7 +18,7 @@ const Navi = ()=>{
         {/*<h4 className="logo">DelincuenMapa</h4>*/}
         <img src={logod} alt="DelincuenMapa" className="foto"  />
         </a>
-        <a href="/form" className="formu">Formulario</a>
+        <a href="/form" className="formu">Denuncia tu crimen</a>
         {/*<Nav.Link href="/estadisticas">Interesantes estadisticas</Nav.Link>*/}
         <h6 className="joda"> Robos registrados: {robos.length}</h6>
         </Nav>
