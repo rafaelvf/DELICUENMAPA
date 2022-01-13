@@ -12,11 +12,11 @@
 }
 .formu{
     position: absolute;
-    left: 41%;
-    top:18px;
+    left: 39%;
+    top:22px;
     color: #d1d9de;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 22px;
     font-family: sans-serif;
 }
 .formu:hover{
@@ -25,9 +25,9 @@
 .joda{
     position: absolute;
     right: 10%;
-    top:25px;
+    top:26px;
     color: #d1d9de;
-    font-size: 24px;
+    font-size: 20px;
     font-family: sans-serif;
 }
 .navbar{
@@ -58,12 +58,19 @@
     }
     .formu{
         position: absolute;
-        left: 57%;
-        top: 54%;
+        left: 50%;
+        top: 56%;
         color: #d1d9de;
         text-decoration: none;
-        font-size: 11px;
+        font-size: 12px;
         font-family: sans-serif;
+        border-style: solid;
+        border-color: #d1d9de;
+        border-radius: 6px;
+        border-width: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+
     }
     .joda{
         position: absolute;
@@ -75,7 +82,7 @@
     }
     .foto{
         position: absolute;
-        height: 34%;
+        height: 36%;
         width: 40%;
         left: 2%;
         top:30%;
@@ -97,18 +104,23 @@
     }
     .formu{
         position: absolute;
-        
-        left: 60%;
+        left: 54%;
         top: 54%;
         color: #d1d9de;
         text-decoration: none;
         font-size: 15px;
         font-family: sans-serif;
+        border-style: solid;
+        border-color: #d1d9de;
+        border-radius: 6px;
+        border-width: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     .joda{
         position: absolute;
         left: 58%;
-        top: 32%;
+        top: 24%;
         color: #d1d9de;
         font-size: 15px;
         font-family: sans-serif;
@@ -138,16 +150,16 @@
     .formu{
         position: absolute;
         
-        left: 42%;
-        top: 23px;
+        left: 36%;
+        top: 25px;
         color: #d1d9de;
         text-decoration: none;
-        font-size: 23px;
+        font-size: 21px;
         font-family: sans-serif;
     }
     .joda{
         position: absolute;
-        left: 70%;
+        left: 71%;
         top: 34px;
         color: #d1d9de;
         font-size: 15px;
