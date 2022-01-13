@@ -75,10 +75,10 @@
     }
     .foto{
         position: absolute;
-        height: 40px;
+        height: 34%;
         width: 40%;
         left: 2%;
-        top:20%;
+        top:30%;
     }
 
 }
@@ -155,10 +155,10 @@
     }
     .foto{
         position: absolute;
-        height: 45px;
+        height: 45%;
         width: 22%;
         left: 2%;
-        top:20%;
+        top:25%;
     }
 
 }
